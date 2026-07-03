@@ -1,50 +1,182 @@
 [
   {
-    "id": "buffalo_wings",
-    "name": {
-      "en": "Buffalo Wings",
-      "ru": "Крылышки Баффало",
-      "uk": "Крильця Баффало"
-    },
-    "main_category": "appetizer",
-    "tags": [
-      "meat",
-      "chicken",
-      "fried",
-      "spicy",
-      "crispy",
-      "american",
-      "beer",
-      "share",
-      "comfort_food",
-      "finger_food"
-    ],
-    "taste": {
-      "sweet": 1,
-      "salty": 7,
-      "sour": 3,
-      "bitter": 0,
-      "spicy": 8,
-      "umami": 8
-    },
-    "texture": {
-      "crispy": 9,
-      "juicy": 8,
-      "creamy": 0,
-      "chewy": 3
-    },
-    "nutrition": {
-      "satiety": 7,
-      "fatness": 6,
-      "heaviness": 6
-    },
-    "temperature": "hot",
-    "meal": [
-      "dinner",
-      "snack"
-    ],
-    "allergens": [
-      "gluten"
-    ]
-  }
-]
+  "id": "buffalo_wings",
+  "name": { "en": "Buffalo Wings", "ru": "Крылышки Баффало", "uk": "Крильця Баффало" },
+  "main_category": "appetizer",
+  "tags": ["meat","chicken","fried","spicy","crispy","american","beer","share","comfort_food","finger_food"],
+  "taste": {"sweet":1,"salty":7,"sour":3,"bitter":0,"spicy":8,"umami":8},
+  "texture": {"crispy":9,"juicy":8,"creamy":0,"chewy":3},
+  "nutrition": {"satiety":7,"fatness":6,"heaviness":6},
+  "temperature": "hot",
+  "meal": ["dinner","snack"],
+  "allergens": ["gluten"]
+},
+{
+  "id": "cheeseburger",
+  "name": { "en": "Cheeseburger", "ru": "Чизбургер", "uk": "Чізбургер" },
+  "main_category": "fast_food",
+  "tags": ["beef","cheese","bread","fast_food","american","comfort_food","fatty"],
+  "taste": {"sweet":2,"salty":7,"sour":2,"bitter":0,"spicy":1,"umami":8},
+  "texture": {"crispy":3,"juicy":8,"creamy":6,"chewy":5},
+  "nutrition": {"satiety":8,"fatness":7,"heaviness":8},
+  "temperature": "hot",
+  "meal": ["lunch","dinner"],
+  "allergens": ["gluten","dairy"]
+},
+{
+  "id": "pepperoni_pizza",
+  "name": { "en": "Pepperoni Pizza", "ru": "Пицца Пепперони", "uk": "Піца Пепероні" },
+  "main_category": "fast_food",
+  "tags": ["pizza","cheese","pepperoni","italian","fast_food","share","comfort_food"],
+  "taste": {"sweet":2,"salty":7,"sour":2,"bitter":0,"spicy":3,"umami":9},
+  "texture": {"crispy":6,"juicy":6,"creamy":7,"chewy":6},
+  "nutrition": {"satiety":8,"fatness":7,"heaviness":7},
+  "temperature": "hot",
+  "meal": ["lunch","dinner"],
+  "allergens": ["gluten","dairy"]
+},
+{
+  "id": "sushi_salmon",
+  "name": { "en": "Salmon Sushi", "ru": "Суши с лососем", "uk": "Суші з лососем" },
+  "main_category": "japanese",
+  "tags": ["fish","rice","seafood","japanese","fresh","light","healthy"],
+  "taste": {"sweet":1,"salty":4,"sour":2,"bitter":0,"spicy":1,"umami":7},
+  "texture": {"crispy":0,"juicy":6,"creamy":1,"chewy":5},
+  "nutrition": {"satiety":5,"fatness":3,"heaviness":4},
+  "temperature": "cold",
+  "meal": ["lunch","dinner"],
+  "allergens": ["fish"]
+},
+{
+  "id": "ramen",
+  "name": { "en": "Ramen", "ru": "Рамен", "uk": "Рамен" },
+  "main_category": "japanese",
+  "tags": ["noodles","broth","japanese","hot","comfort_food","umami","hearty"],
+  "taste": {"sweet":1,"salty":8,"sour":1,"bitter":0,"spicy":4,"umami":9},
+  "texture": {"crispy":0,"juicy":9,"creamy":6,"chewy":8},
+  "nutrition": {"satiety":9,"fatness":6,"heaviness":8},
+  "temperature": "hot",
+  "meal": ["lunch","dinner"],
+  "allergens": ["gluten","eggs"]
+},
+{
+  "id": "tacos_beef",
+  "name": { "en": "Beef Tacos", "ru": "Тако с говядиной", "uk": "Тако з яловичиною" },
+  "main_category": "mexican",
+  "tags": ["beef","mexican","spicy","street_food","handheld","share"],
+  "taste": {"sweet":1,"salty":6,"sour":4,"bitter":0,"spicy":6,"umami":8},
+  "texture": {"crispy":5,"juicy":8,"creamy":4,"chewy":5},
+  "nutrition": {"satiety":7,"fatness":5,"heaviness":6},
+  "temperature": "hot",
+  "meal": ["lunch","dinner"],
+  "allergens": ["gluten"]
+},
+{
+  "id": "carbonara",
+  "name": { "en": "Pasta Carbonara", "ru": "Карбонара", "uk": "Карбонара" },
+  "main_category": "italian",
+  "tags": ["pasta","italian","cheese","eggs","comfort_food","creamy"],
+  "taste": {"sweet":1,"salty":7,"sour":1,"bitter":0,"spicy":1,"umami":9},
+  "texture": {"crispy":0,"juicy":6,"creamy":9,"chewy":7},
+  "nutrition": {"satiety":8,"fatness":8,"heaviness":8},
+  "temperature": "hot",
+  "meal": ["lunch","dinner"],
+  "allergens": ["gluten","eggs","dairy"]
+},
+{
+  "id": "fried_rice",
+  "name": { "en": "Fried Rice", "ru": "Жареный рис", "uk": "Смажений рис" },
+  "main_category": "asian",
+  "tags": ["rice","asian","quick","savory","egg","soy_sauce"],
+  "taste": {"sweet":1,"salty":7,"sour":1,"bitter":0,"spicy":2,"umami":8},
+  "texture": {"crispy":4,"juicy":5,"creamy":2,"chewy":6},
+  "nutrition": {"satiety":7,"fatness":5,"heaviness":6},
+  "temperature": "hot",
+  "meal": ["lunch","dinner"],
+  "allergens": ["eggs","soy"]
+},
+{
+  "id": "caesar_salad",
+  "name": { "en": "Caesar Salad", "ru": "Салат Цезарь", "uk": "Салат Цезар" },
+  "main_category": "salad",
+  "tags": ["salad","chicken","light","fresh","healthy","cheese"],
+  "taste": {"sweet":1,"salty":5,"sour":4,"bitter":1,"spicy":1,"umami":6},
+  "texture": {"crispy":7,"juicy":6,"creamy":5,"chewy":3},
+  "nutrition": {"satiety":6,"fatness":5,"heaviness":5},
+  "temperature": "cold",
+  "meal": ["lunch","dinner"],
+  "allergens": ["eggs","dairy","gluten"]
+},
+{
+  "id": "pancakes",
+  "name": { "en": "Pancakes", "ru": "Панкейки", "uk": "Панкейки" },
+  "main_category": "breakfast",
+  "tags": ["sweet","breakfast","soft","dessert","comfort_food"],
+  "taste": {"sweet":8,"salty":2,"sour":1,"bitter":0,"spicy":0,"umami":3},
+  "texture": {"crispy":2,"juicy":1,"creamy":6,"chewy":5},
+  "nutrition": {"satiety":6,"fatness":6,"heaviness":5},
+  "temperature": "hot",
+  "meal": ["breakfast"],
+  "allergens": ["gluten","eggs","dairy"]
+}
+  ,
+{
+  "id": "spaghetti_bolognese",
+  "name": { "en": "Spaghetti Bolognese", "ru": "Спагетти Болоньезе", "uk": "Спагеті Болоньєзе" },
+  "main_category": "italian",
+  "tags": ["pasta","beef","tomato","italian","comfort_food","hearty"],
+  "taste": {"sweet":2,"salty":6,"sour":3,"bitter":0,"spicy":1,"umami":9},
+  "texture": {"crispy":0,"juicy":7,"creamy":5,"chewy":7},
+  "nutrition": {"satiety":8,"fatness":6,"heaviness":7},
+  "temperature": "hot",
+  "meal": ["lunch","dinner"],
+  "allergens": ["gluten"]
+},
+{
+  "id": "pho",
+  "name": { "en": "Pho", "ru": "Фо", "uk": "Фо" },
+  "main_category": "vietnamese",
+  "tags": ["soup","beef","noodles","asian","light","broth","herbs"],
+  "taste": {"sweet":1,"salty":6,"sour":2,"bitter":0,"spicy":2,"umami":8},
+  "texture": {"crispy":0,"juicy":9,"creamy":2,"chewy":6},
+  "nutrition": {"satiety":7,"fatness":4,"heaviness":5},
+  "temperature": "hot",
+  "meal": ["lunch","dinner"],
+  "allergens": []
+},
+{
+  "id": "kebab",
+  "name": { "en": "Kebab", "ru": "Кебаб", "uk": "Кебаб" },
+  "main_category": "street_food",
+  "tags": ["meat","lamb","beef","spicy","street_food","grilled"],
+  "taste": {"sweet":1,"salty":7,"sour":2,"bitter":0,"spicy":5,"umami":8},
+  "texture": {"crispy":4,"juicy":8,"creamy":2,"chewy":7},
+  "nutrition": {"satiety":8,"fatness":7,"heaviness":8},
+  "temperature": "hot",
+  "meal": ["dinner"],
+  "allergens": []
+},
+{
+  "id": "falafel",
+  "name": { "en": "Falafel", "ru": "Фалафель", "uk": "Фалафель" },
+  "main_category": "middle_eastern",
+  "tags": ["vegetarian","chickpeas","fried","street_food","healthy"],
+  "taste": {"sweet":1,"salty":5,"sour":2,"bitter":1,"spicy":2,"umami":6},
+  "texture": {"crispy":8,"juicy":4,"creamy":2,"chewy":6},
+  "nutrition": {"satiety":6,"fatness":5,"heaviness":5},
+  "temperature": "hot",
+  "meal": ["lunch","dinner"],
+  "allergens": []
+},
+{
+  "id": "miso_soup",
+  "name": { "en": "Miso Soup", "ru": "Мисо суп", "uk": "Місо суп" },
+  "main_category": "japanese",
+  "tags": ["soup","light","warm","umami","healthy"],
+  "taste": {"sweet":1,"salty":6,"sour":1,"bitter":0,"spicy":0,"umami":8},
+  "texture": {"crispy":0,"juicy":8,"creamy":2,"chewy":2},
+  "nutrition": {"satiety":4,"fatness":2,"heaviness":3},
+  "temperature": "hot",
+  "meal": ["lunch","dinner"],
+  "allergens": ["soy"]
+}
