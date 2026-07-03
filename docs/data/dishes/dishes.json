@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "buffalo_wings",
+    "name": {
+      "en": "Buffalo Wings",
+      "ru": "Крылышки Баффало",
+      "uk": "Крильця Баффало"
+    },
+    "main_category": "appetizer",
+    "tags": [
+      "meat",
+      "chicken",
+      "fried",
+      "spicy",
+      "crispy",
+      "american",
+      "beer",
+      "share",
+      "comfort_food",
+      "finger_food"
+    ],
+    "taste": {
+      "sweet": 1,
+      "salty": 7,
+      "sour": 3,
+      "bitter": 0,
+      "spicy": 8,
+      "umami": 8
+    },
+    "texture": {
+      "crispy": 9,
+      "juicy": 8,
+      "creamy": 0,
+      "chewy": 3
+    },
+    "nutrition": {
+      "satiety": 7,
+      "fatness": 6,
+      "heaviness": 6
+    },
+    "temperature": "hot",
+    "meal": [
+      "dinner",
+      "snack"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  }
+]
